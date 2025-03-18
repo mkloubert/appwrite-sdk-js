@@ -94,7 +94,7 @@ Currently the following features running have a "quite stable" beta status:
 
 ## Documentation
 
-The API documentation can be found [here](https://mkloubert.github.io/js-strings/).
+The API documentation can be found [here](https://mkloubert.github.io/appwrite-sdk-js/).
 
 ## License
 
