@@ -1,7 +1,7 @@
 {
   "name": "@marcelkloubert/appwrite-sdk",
   "description": "An (unofficial) enhancement for official SDK of Appwrite.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "engines": {
     "node": ">=18"
@@ -24,7 +24,18 @@
     "sandbox": "tsx ./sandbox/index.mts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "appwrite",
+    "sdk",
+    "nodejs",
+    "database",
+    "api",
+    "client",
+    "server",
+    "appwrite-sdk",
+    "data-management",
+    "typescript"
+  ],
   "author": "Marcel J. Kloubert",
   "repository": {
     "type": "git",
