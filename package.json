@@ -1,0 +1,61 @@
+{
+  "name": "@marcelkloubert/appwrite-sdk",
+  "description": "An (unofficial) enhancement for official SDK of Appwrite.",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "CONTRIBUTE.md",
+    "LICENSE",
+    "lib",
+    "!lib/**/__tests__/**/*",
+    "!lib/**/*.map",
+    "!lib/**/setupTests.*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "del lib && tsc",
+    "docs": "del docs && typedoc --out docs src",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --fix --ext .ts src",
+    "sandbox": "tsx ./sandbox/index.mts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marcel J. Kloubert",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkloubert/appwrite-sdk-js"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Marcel J. Kloubert",
+      "url": "https://marcel.coffee"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mkloubert/appwrite-sdk-js/issues"
+  },
+  "devDependencies": {
+    "@marcelkloubert/tsconfig": "0.1.1",
+    "@types/node": "18.19.80",
+    "del-cli": "6.0.0",
+    "dotenv": "16.4.7",
+    "eslint": "8.57.1",
+    "eslint-config-marcel": "0.1.1",
+    "node-appwrite": "15.0.1",
+    "tsx": "4.19.3",
+    "typedoc": "0.28.0",
+    "typescript": "5.8.2"
+  },
+  "peerDependencies": {
+    "node-appwrite": ">=15.0.1 <16"
+  },
+  "dependencies": {
+    "dayjs": "1.11.13"
+  }
+}
