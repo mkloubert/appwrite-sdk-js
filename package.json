@@ -1,7 +1,7 @@
 {
   "name": "@marcelkloubert/appwrite-sdk",
   "description": "An (unofficial) enhancement for official SDK of Appwrite.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "engines": {
     "node": ">=18"
