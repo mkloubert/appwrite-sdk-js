@@ -1,6 +1,6 @@
 # @marcelkloubert/appwrite-sdk
 
-> An (unofficial) enhancement for official SDK of Appwrite which runs on [Node.js 18+](https://nodejs.org/en/blog/release/v18.0.0/) or later.
+> An (unofficial) enhancement for [official SDK of Appwrite](https://appwrite.io/docs/quick-starts/node) which runs on [Node.js 18+](https://nodejs.org/en/blog/release/v18.0.0/) or later.
 
 ## Install
 
